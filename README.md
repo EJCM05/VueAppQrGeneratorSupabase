@@ -1,12 +1,14 @@
 # AppSupabase
 
-This template should help get you started developing with Vue 3 in Vite.
+Una arquitectura BaaS + Vue la cual tiene como finalidad generar codigos QR y guardar en en dicho servicio, principalmente el BaaS consta de una base de datos postgres, con su infraestructura de backend en firebase. Se planea a futuro excalar con sesiones de usuario y autenticacion, mejoras de visualizacion y nuevas funcionalidades con el fin de profesionalizarse (Desplegado con Vercel).
 
-## Recommended IDE Setup
+### Tecnologias: 
+- Vue
+- Firebase
+- Postgres
+- Vercel
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
+## Ejecucion
 
 See [Vite Configuration Reference](https://vite.dev/config/).
 
