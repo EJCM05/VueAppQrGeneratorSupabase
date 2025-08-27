@@ -5,12 +5,12 @@
       <div v-if="loading" class="text-center">Cargando...</div>
       <div v-else-if="qrCodes.length === 0" class="text-center text-muted">Aún no hay códigos QR guardados.</div>
       <div v-else class="list-group">
-        <a v-for="item in qrCodes" :key="item.id" :href="item.text_code" target="_blank" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center rounded-pill mb-2">
+        <i v-for="item in qrCodes" :key="item.id" :href="item.text_code" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center rounded-pill mb-2">
           <span class="text-truncate">{{ item.text_code }}</span>
           <div class="qr-preview-container d-none d-sm-block">
             <div :id="'qr-' + item.id" class="qr-preview"></div>
           </div>
-        </a>
+        </i>
       </div>
     </div>
   </div>
